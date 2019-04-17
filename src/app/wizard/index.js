@@ -8,3 +8,4 @@ export * from './name';
 export * from './location';
 export * from './account';
 export * from './final';
+export * from './decode';
