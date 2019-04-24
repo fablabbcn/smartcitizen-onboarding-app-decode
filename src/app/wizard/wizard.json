@@ -238,6 +238,19 @@
           "h4",
           "segueButton"
         ]
+      },
+      {
+        "index": 41,
+        "part": 6,
+        "template": "confirm",
+        "controller": "smartcitizenController",
+        "stateName": "confirm_handshake",
+        "url": "confirm_handshake",
+        "contentKeys": [
+          "h1",
+          "h4",
+          "segueButton"
+        ]
       }
     ]
   },  

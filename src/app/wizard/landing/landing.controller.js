@@ -31,7 +31,7 @@ export function landingController($scope, scopePayload, AnimationService, $rootS
     }
 
     $scope.skipInstructions = function(){
-        $state.go('wizard.choose_connection', {lang: $stateParams.lang});
+        $state.go('wizard.accesspoint_1', {lang: $stateParams.lang});
     }
 
     $scope.languageChangeSegue = function(val){

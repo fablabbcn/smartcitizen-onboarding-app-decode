@@ -3,27 +3,25 @@ export function decodeController($scope, scopePayload, AnimationService, $httpPa
     AnimationService.animate(scopePayload.template);
     $scope.$parent.segueControl = 'ready';
 
-    // https://iot.decodeproject.eu/#/onboarding?device_token=abc123&lng=2.12&lat=41.1&exposure=indoor
+    // var urlEndPoint = 'https://iot.decodeproject.eu/#/onboarding';
 
-    console.log($scope.$parent.submittedData.deviceData);
+    var urlEndPoint = 'https://decodeweb.herokuapp.com/#/onboarding';
+
+    var deviceData = $scope.$parent.submittedData.deviceData
 
     var params = {
-		'device_token': $scope.$parent.submittedData.deviceData.device_token,
-		'lng': $scope.$parent.submittedData.deviceData.exposure,
-		'lat': $scope.$parent.submittedData.deviceData.exposure,
-		'exposure': $scope.$parent.submittedData.deviceData.exposure
+		'device_token': deviceData.device_token,
+		'lng': deviceData.longitude,
+		'lat': deviceData.latitude,
+		'exposure': deviceData.exposure
 	}
 
-    var urlEndPoint = 'https://iot.decodeproject.eu/#/onboarding';
-
     var urlParams = $httpParamSerializer(params);
-
     var url = urlEndPoint + '?' + urlParams;
 
     console.log(url);
 
     $scope.payload.buttonUrl = url;
-
 }
 
 decodeController.$inject = ['$scope', 'scopePayload', 'AnimationService', '$httpParamSerializer'];
