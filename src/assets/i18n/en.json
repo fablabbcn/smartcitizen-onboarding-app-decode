@@ -321,5 +321,8 @@
         "h2": "And finally, turn on the Kit",
         "text": "Push the button on the Kit multiple times, until the LED is red",
         "segueButton": "It's alive"
+    },
+    "decode_app": {
+        "segueButton": "Done!"
     }
 }

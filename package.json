@@ -1,5 +1,5 @@
 {
-  "name": "smartcitizen-onboarding-app-start",
+  "name": "smartcitizen-onboarding-app-decode",
   "version": "2.0.0",
   "description": "Onboarding",
   "main": "src/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fablabbcn/smartcitizen-onboarding-app-start.git"
+    "url": "git+https://github.com/fablabbcn/smartcitizen-onboarding-app-decode.git"
   },
   "keywords": [
     "smartcitizen"
@@ -20,9 +20,9 @@
   "author": "Smartcitizen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fablabbcn/smartcitizen-onboarding-app-start/issues"
+    "url": "https://github.com/fablabbcn/smartcitizen-onboarding-app-decode/issues"
   },
-  "homepage": "https://github.com/fablabbcn/smartcitizen-onboarding-app-start#readme",
+  "homepage": "https://github.com/fablabbcn/smartcitizen-onboarding-app-decode#readme",
   "devDependencies": {
     "angular-translate-extract": "^1.0.0",
     "babel-core": "^6.26.3",
@@ -64,7 +64,7 @@
   },
   "gh-pages-deploy": {
     "staticpath": "dist",
-    "cname": "start.smartcitizen.me",
+    "cname": "start.decode.smartcitizen.me",
     "prep": [
       "build"
     ]

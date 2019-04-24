@@ -315,6 +315,21 @@ body {
         }
       }
 
+      .decode {
+        .contextButton {
+          background-color: #33E986;
+          border-color:  #33E986;
+          text-decoration: none;
+          font: 25px 'Roboto Condensed', sans-serif !important;
+        }
+
+        &:hover, &:active, &.active {
+          background-color:  #FC6EAF;
+          border-color:  #FC6EAF;
+        }
+
+      }
+
       .promptedText{
         background-color: $blue;
         border-radius: 3px;
@@ -342,5 +357,9 @@ body {
     }
   }
 }
+
+
+
+
 
 @import "media_queries";
