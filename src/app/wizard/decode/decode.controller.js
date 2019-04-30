@@ -3,9 +3,9 @@ export function decodeController($scope, scopePayload, AnimationService, $httpPa
     AnimationService.animate(scopePayload.template);
     $scope.$parent.segueControl = 'ready';
 
-    // var urlEndPoint = 'https://iot.decodeproject.eu/#/onboarding';
+    var urlEndPoint = 'https://iot.decodeproject.eu/#/onboarding';
 
-    var urlEndPoint = 'https://decodeweb.herokuapp.com/#/onboarding';
+    // var urlEndPoint = 'https://decodeweb.herokuapp.com/#/onboarding';
 
     var deviceData = $scope.$parent.submittedData.deviceData
 
