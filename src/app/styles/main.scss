@@ -316,11 +316,24 @@ body {
       }
 
       .decode {
+
+        img{
+          max-width: 150px;
+          margin-bottom: 10px;
+        }
+
+        .qr-wrapper{
+          text-align: center;
+          margin: 30px;
+        }
+
         .contextButton {
           background-color: #33E986;
           border-color:  #33E986;
           text-decoration: none;
-          font: 25px 'Roboto Condensed', sans-serif !important;
+          font: 20px 'Roboto Condensed', sans-serif !important;
+          padding: 0 5px;
+          height: 35px;
         }
 
         &:hover, &:active, &.active {

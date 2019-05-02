@@ -14,6 +14,15 @@ import angularTranslate from 'angular-translate';
 import 'angular-translate-loader-static-files';
 import 'angular-socket-io';
 
+// QR Code
+import qrcode from 'qrcode-generator';
+import ngQrcode from 'angular-qrcode';
+
+// hacks for the browser
+// if using webpack there is a better solution below
+window.qrcode = qrcode;
+// require('/node_modules/qrcode-generator/qrcode_UTF8');
+
 // config
 import config from './app.config';
 import routes from './app.routes';
@@ -36,6 +45,7 @@ export const App = angular.module('app', [
   'uiGmapgoogle-maps',
   'btford.socket-io',
   angularTranslate,
+  ngQrcode,
   // 'angularLazyImg', TODO check this one: https://github.com/afklm/ng-lazy-image
   'cfp.hotkeys'
 ])

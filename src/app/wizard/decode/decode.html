@@ -1,12 +1,16 @@
 <!-- <div class="animate" ng-class="animationRows[3][0]">
     <h2>Decode App</h2>
 </div> -->
-<div class="animate" ng-class="animationRows[3][1]" layout="column" layout-align="center center">
-    <img style="max-width: 312px; margin-bottom: 30px;" preload-image ng-src="assets/images/decode.png" class="buildImage">
+<div class="animate decode" ng-class="animationRows[3][1]" layout="column" layout-align="center center">
+    <img preload-image ng-src="assets/images/decode.png" class="buildImage">
 </div>
 <div class="animate decode" ng-class="animationRows[3][2]">
-    <h3></h3>
-    <p>Register your Kit with Decode by filling the data on the new tap</p>
+    <h3>Join your Decode community!</h3>
+    <p>Scan the QR code with your phone or click the button below</p>
+    <!-- <p>Fill the data to join your Decode community</p> -->
+    <div class="qr-wrapper">
+		<qrcode size="200" color="#333333" background="#f9f9fb" data="{{ payload.buttonUrl }}"></qrcode>
+    </div>
     <a class="contextButton" ng-href="{{ payload.buttonUrl }}" target="_blank" ng-class="segueControl">
         <span>Register with decode</span>
     </a>
