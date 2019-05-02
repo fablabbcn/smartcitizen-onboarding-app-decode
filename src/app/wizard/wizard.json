@@ -331,25 +331,6 @@
         ]
       },
       {
-        "index": 62,
-        "part": 3,
-        "template": "location_tags",
-        "stateName": "location_tags",
-        "url": "location_tags",
-        "resolve": {
-          "tags": {
-            "function": ["platform", "return platform.getTags();"],
-            "dependencies": ["platform"]
-          }
-        },
-        "contentKeys": [
-          "h2",
-          "h4",
-          "segueButton",
-          "continueButton"
-        ]
-      },
-      {
         "index": 63,
         "part": 4,
         "template": "confirm",
