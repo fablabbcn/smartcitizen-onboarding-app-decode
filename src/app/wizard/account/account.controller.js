@@ -29,8 +29,10 @@ export function accountController($scope, scopePayload, AnimationService, platfo
     $scope.passwordListener = function () {
         $scope.payload.segueButton = $scope.payload.continueButton;
         if ((typeof $scope.pass1 !== 'undefined') && ($scope.pass1.length > 0) && ($scope.pass1 == $scope.pass2)) {
+            blockSegue();
             $scope.$parent.submittedData.user.password = $scope.pass1;
             platform.createUser($scope.$parent.submittedData.user).then(function (data) {
+                blockSegue();
                 loginAndBakeDevice();
             }, function (res) {
                 blockSegue();
