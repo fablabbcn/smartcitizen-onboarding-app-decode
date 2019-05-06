@@ -54,15 +54,23 @@ export function accountController($scope, scopePayload, AnimationService, platfo
     };
 
     $scope.usernameListener = function () {
-        $scope.$parent.submittedData.user.username = $scope.given_username;
 
-        $scope.$parent.userName = $scope.input; // Is this need it?
+        $scope.given_username = $scope.given_username.split(' ').join('_');
 
-        platform.getUser($scope.$parent.submittedData.user).then(function (data) {
-            blockSegue();
-        }, function (res) {
-            prepSegue();
-        });
+        if($scope.given_username.length > 3 && $scope.given_username.length  < 30){
+
+            $scope.$parent.submittedData.user.username = $scope.given_username;
+
+            $scope.$parent.userName = $scope.input; // Is this need it?
+
+            platform.getUser($scope.$parent.submittedData.user).then(function (data) {
+                blockSegue();
+            }, function (res) {
+                prepSegue();
+            });
+
+        }
+
 
 
     };
