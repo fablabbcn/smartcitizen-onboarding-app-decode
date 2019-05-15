@@ -10,6 +10,7 @@ export function decodeController($scope, scopePayload, AnimationService, $httpPa
     var deviceData = $scope.$parent.submittedData.deviceData
 
     var params = {
+        'device_name': deviceData.name,
 		'device_token': deviceData.device_token,
 		'lng': deviceData.longitude,
 		'lat': deviceData.latitude,
