@@ -5,9 +5,9 @@
     <h1>{{ payload.h1 | translate}}</h1>
 </div>
 <div class="decode animate" ng-class="animationRows[4][2]">
-    <p>You have successfully installed and connected the Smart Citizen Kit to the internet, and then added the kit to the global community of sensors! You can now explore your community data at the BCNNow dashboard!</p>
+    <p>{{ payload.h2 | translate}}</p>
     <a class="contextButton" ng-href="http://bcnnow.decodeproject.eu/login.html" target="_blank" ng-class="segueControl">
-	    <span>Explore your community dashboard!</span>
+	    <span>{{ payload.h4b | translate}}</span>
 	</a>
-    <p>Visit also SmartCitizen.me to see your Kit in action capturing data!</p>
+    <p>{{ payload.h4 | translate}}</p>
 </div>

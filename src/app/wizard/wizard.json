@@ -12,7 +12,8 @@
       "h2",
       "h4",
       "segueButton",
-      "contextButton1"
+      "contextButton1",
+      "contextButton2"
     ]
 },{
     "stateName": "",
@@ -354,6 +355,9 @@
         "stateName": "decode_app",
         "url": "decode_app",
         "contentKeys": [
+          "h1",
+          "h4",
+          "h4b",
           "segueButton"
         ]
       }

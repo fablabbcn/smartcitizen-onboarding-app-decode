@@ -12,8 +12,8 @@
 </div>
 
 <div class="animate" ng-class="animationRows[4][3]">
-    <div style="margin-top: 60px;" layout="row" layout-align="center center" layout-wrap>
-        <button ng-if="payload.contextButton1" style="font-size: 14px; font-family: 'Kanit';  opacity: 0.5;" class="contextButton" ng-click="skipInstructions()">
+    <div class="languageSelector"  style="margin-top: 60px;" layout="row" layout-align="center center" layout-wrap>
+        <button ng-if="payload.contextButton1" class="contextButton" style="font-size: 14px; font-family: 'Kanit';  opacity: 0.5;" ng-click="languageChangeSegue( payload.contextButton1 | translate )">
             {{ payload.contextButton1 | translate }}
             <svg id="nextSVG" width="10px" height="16px" viewBox="187 22 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
@@ -22,7 +22,7 @@
                 <path d="M187.539062,22.0676084 L196.867188,29.7394834 C196.95573,29.8071921 197,29.8931287 197,29.9972959 C197,30.1170882 196.95573,30.2030248 196.867188,30.2551084 L187.539062,37.9269834 C187.434895,38.0051088 187.317709,38.0155254 187.1875,37.9582334 C187.062499,37.9009415 187,37.8019841 187,37.6613584 L187,22.3332334 C187,22.1926077 187.062499,22.0936504 187.1875,22.0363584 C187.317709,21.9790665 187.434895,21.989483 187.539062,22.0676084 L187.539062,22.0676084 Z" id="directright" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path>
             </svg>
         </button>
-        <button ng-if="payload.contextButton2" class="contextButton" ng-click="languageChangeSegue(1)">
+        <button ng-if="payload.contextButton2" class="contextButton" style="font-size: 14px; font-family: 'Kanit';  opacity: 0.5;" ng-click="languageChangeSegue( payload.contextButton2 | translate )">
             {{ payload.contextButton2 | translate }}
             <svg id="nextSVG" width="10px" height="16px" viewBox="187 22 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
@@ -31,5 +31,5 @@
                 <path d="M187.539062,22.0676084 L196.867188,29.7394834 C196.95573,29.8071921 197,29.8931287 197,29.9972959 C197,30.1170882 196.95573,30.2030248 196.867188,30.2551084 L187.539062,37.9269834 C187.434895,38.0051088 187.317709,38.0155254 187.1875,37.9582334 C187.062499,37.9009415 187,37.8019841 187,37.6613584 L187,22.3332334 C187,22.1926077 187.062499,22.0936504 187.1875,22.0363584 C187.317709,21.9790665 187.434895,21.989483 187.539062,22.0676084 L187.539062,22.0676084 Z" id="directright" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path>
             </svg>
         </button>
-    </div>
+    </div
 </div>

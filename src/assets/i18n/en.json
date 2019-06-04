@@ -2,9 +2,9 @@
     "landing": {
         "h2": "Welcome to the Smart Citizen Kit!",
         "h4": "Let’s get you set up with a Smart Citizen Kit, and sensing in no time!",
-        "segueButton": "Let's go",
-        "contextButton1": "Skip instructions",
-        "contextButton2": ""
+        "segueButton": "Continue in English!",
+        "contextButton1": "castellano",
+        "contextButton2": "català"
     },
     "smart_citizen": {
         "h2": "Smart Citizen is a movement for civic participation in a modern world",
@@ -28,7 +28,7 @@
     },
     "kitbuild1": {
         "h2": "First, what's in the box?",
-        "text": "You should have the Kit, a micro SD adapter, a USB cable and charger, and a rubber band",
+        "text": "You should have the Kit, a USB cable and charger",
         "segueButton": "done"
     },
     "kitbuild2": {
@@ -304,9 +304,9 @@
     },
     "final": {
         "h1": "IT’S ALIVE!",
-        "h2": "You have successfully installed and connected the Smart Citizen Kit to the internet, and then added the kit to the global community of sensors!",
-        "h4": "Visit SmartCitizen.me to see your Kit in action capturing data. Don't forget to read the manual for assembly instructions and tips on placing your sensor in the wild",
-        "h4b": "",
+        "h2": "You have successfully installed and connected the Smart Citizen Kit to the internet, and then added the kit to the global community of sensors! You can now explore your community data at the BCNNow dashboard!",
+        "h4": "Visit also SmartCitizen.me to see your Kit in action capturing data!",
+        "h4b": "Explore your community dashboard!",
         "segueButton": "Visit smartcitizen.me"
     },
     "unavailable": {
@@ -323,6 +323,9 @@
         "segueButton": "It's alive"
     },
     "decode_app": {
-        "segueButton": "Done!"
+        "segueButton": "Done!",
+        "h1": "JOIN YOUR DECODE COMMUNITY!",
+        "h4": "Scan the QR code with your phone or click the button below",
+        "h4b": "Register with Decode"
     }
 }

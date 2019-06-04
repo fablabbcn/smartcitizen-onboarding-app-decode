@@ -276,7 +276,7 @@ export function handshakeController($scope, scopePayload, AnimationService, $roo
         $scope.payload.segueButton = $scope.payload.continueButton;
         $scope.$parent.segueControl = 'ready';
         $scope.$parent.spinnerControl = 'hide';
-        $rootScope.$broadcast('forceSegue', { target: 'wizard.confirm_handshake', params: {lang: $stateParams.lang}});
+        $rootScope.$broadcast('forceSegue', { target: 'wizard.confirm_handshake'});
     }
 
     //  Platform doesn't reply and we show error for a few seconds
@@ -327,7 +327,7 @@ export function handshakeController($scope, scopePayload, AnimationService, $roo
     }
 
     $scope.alternateSegue = function () {
-        $rootScope.$broadcast('forceSegue', { target: 'wizard.choose_connection', params: {lang: $stateParams.lang}});
+        $rootScope.$broadcast('forceSegue', { target: 'wizard.choose_connection'});
     };
 
 }

@@ -22,7 +22,7 @@ export function accesspointController_handshake($scope, scopePayload, AnimationS
 
     $scope.watchDog = $timeout(function() {
         prepSegue();
-        $rootScope.$broadcast('forceSegue', { target: 'wizard.ap_issues', params: {lang: $stateParams.lang}});
+        $rootScope.$broadcast('forceSegue', { target: 'wizard.ap_issues'});
     }, $scope.$parent.apModeWatchDog);
 
     function recurrentHandshake(){
@@ -45,7 +45,7 @@ export function accesspointController_handshake($scope, scopePayload, AnimationS
         $timeout.cancel($scope.watchDog);
         $timeout.cancel($scope.watchHandshake);
         $scope.$parent.disabled = false;
-        $rootScope.$broadcast('forceSegue', { target: 'wizard.confirm_handshake', params: {lang: $stateParams.lang}});
+        $rootScope.$broadcast('forceSegue', { target: 'wizard.confirm_handshake'});
     }
 }
 

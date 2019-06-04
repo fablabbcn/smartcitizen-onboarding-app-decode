@@ -5,13 +5,13 @@
     <img preload-image ng-src="assets/images/decode.png" class="buildImage">
 </div>
 <div class="animate decode" ng-class="animationRows[3][2]">
-    <h3>Join your Decode community!</h3>
-    <p>Scan the QR code with your phone or click the button below</p>
+    <h3>{{ payload.h1 | translate}}</h3>
+    <p>{{ payload.h4 | translate}}</p>
     <!-- <p>Fill the data to join your Decode community</p> -->
     <div class="qr-wrapper">
 		<qrcode size="200" color="#333333" background="#f9f9fb" data="{{ payload.buttonUrl }}"></qrcode>
     </div>
     <a class="contextButton" ng-href="{{ payload.buttonUrl }}" target="_blank" ng-class="segueControl">
-        <span>Register with decode</span>
+        <span>{{ payload.h4b | translate}}</span>
     </a>
 </div>
