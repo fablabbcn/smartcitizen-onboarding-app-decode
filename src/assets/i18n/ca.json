@@ -34,12 +34,12 @@
     "kitbuild2": {
         "h2": "En segon lloc, alimenta el sensors",
         "text": "Connecta la bateria al Kit",
-        "segueButton": "fet"
+        "segueButton": "funciona!"
     },
     "kitbuild3": {
         "h2": "Recorda que l'hauràs de carregar periòdicament",
         "text": "Connecta l'USB i carrega el dispositiu com el vostre telèfon. També el pots deixar connectat permanentment",
-        "segueButton": "perfecte"
+        "segueButton": "entès!"
     },
     "kitbuild5": {
         "h2": "",
@@ -136,7 +136,7 @@
     "kitbuild4": {
         "h2": "I finalment, encén el Kit",
         "text": "Pressiona el botó del Kit, fins que el color del llum sigui vermell.",
-        "segueButton": "funciona!"
+        "segueButton": "el llum és vermell!"
     },
     "offline_1": {
         "h2": "",

@@ -34,12 +34,12 @@
     "kitbuild2": {
         "h2": "En segundo lugar, alimenta sensores",
         "text": "Conecta la batería al Kit",
-        "segueButton": "hecho"
+        "segueButton": "funciona!"
     },
     "kitbuild3": {
         "h2": "Recuerda que deberás cargar periódicamente",
         "text": "Conecta el USB y carga el dispositivo como el teléfono. También puedes dejarlo conectado permanentemente",
-        "segueButton": "perfecto"
+        "segueButton": "entendido!"
     },
     "kitbuild5": {
         "h2": "",
@@ -136,7 +136,7 @@
     "kitbuild4": {
         "h2": "Y finalmente, enciende el Kit",
         "text": "Presiona el botón del Kit, hasta que el color de la LED sea rojo.",
-        "segueButton": "funciona!"
+        "segueButton": "la luz es roja!"
     },
     "offline_1": {
         "h2": "",
