@@ -328,7 +328,8 @@
           "input1",
           "input1_error",
           "segueButton",
-          "continueButton"
+          "continueButton",
+          "segueButtonError"
         ]
       },
       {

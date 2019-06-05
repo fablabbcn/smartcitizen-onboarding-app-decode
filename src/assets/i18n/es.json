@@ -198,7 +198,8 @@
         "input1": "indique su dirección",
         "input1_error": "",
         "segueButton": "hecho",
-        "continueButton": "hecho"
+        "continueButton": "hecho",
+        "segueButtonError": "Tienes que introducir una dirección o ubicación"
     },
     "location_tags": {
         "h2": "Seleccionar las palabras que mejor describen el lugar donde has instalado el Kit",
