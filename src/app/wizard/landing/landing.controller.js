@@ -3,9 +3,6 @@ export function landingController($scope, scopePayload, AnimationService, $rootS
     $scope.$parent.payload = scopePayload;
     AnimationService.animate(scopePayload.template);
     $scope.$parent.segueControl = 'ready';
-    var buttonTargets = [];
-
-    targets(scopePayload);
 
     $scope.skipInstructions = function(){
         $state.go('wizard.accesspoint_1', {lang: $stateParams.lang});
