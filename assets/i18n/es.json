@@ -1,0 +1,276 @@
+{
+    "landing": {
+        "h2": "Bienvenido a Smart Citizen Kit",
+        "h4": "Configura tu Smart Citizen Kit y empieza a medir en un santiamén",
+        "segueButton": "continúa en castellano!",
+        "contextButton1": "english",
+        "contextButton2": "català"
+    },
+    "smart_citizen": {
+        "h2": "Smart Citizen es un movimiento para la participación ciudadana utilizando las últimas tecnologías.",
+        "h4": "Smart Citizen crea herramientas abiertas para que los ciudadanos están mejor informado acerca del mundo a su alrededor.",
+        "segueButton": "continúa"
+    },
+    "smart_citizen_brief": {
+        "h2": "El Kit de Smart Citizen",
+        "h4": "Este sensor es el Kit de Smart Citizen para mediciones medioambientales. Mide sonido, calidad del aire, humedad y muchas cosas más",
+        "segueButton": "continúa"
+    },
+    "smart_citizen_brief2": {
+        "h2": "smartcitizen.me",
+        "h4": "El Kit envía todos los datos a la web de Smart Citizen. Es abierta y gratuita para todos, para ver, preguntar y jugar con ella...",
+        "segueButton": "vamos"
+    },
+    "whats_in_the_box": {
+        "h1": "Es la hora de instalar el sensor",
+        "h4": "Hay algunas piezas que hay que montar para instalar el Kit, revisa que las tienes todas.",
+        "segueButton": "estoy a punto"
+    },
+    "kitbuild1": {
+        "h2": "Primero, ¿qué hay en la caja?",
+        "text": "Deberás tener el kit, un cable USB y un cargador",
+        "segueButton": "done"
+    },
+    "kitbuild2": {
+        "h2": "En segundo lugar, alimenta sensores",
+        "text": "Conecta la batería al Kit",
+        "segueButton": "funciona!"
+    },
+    "kitbuild3": {
+        "h2": "Recuerda que deberás cargar periódicamente",
+        "text": "Conecta el USB y carga el dispositivo como el teléfono. También puedes dejarlo conectado permanentemente",
+        "segueButton": "entendido!"
+    },
+    "kitbuild5": {
+        "h2": "",
+        "text": "",
+        "segueButton": ""
+    },
+    "choose_connection": {
+        "h2": "",
+        "Recommended": "",
+        "Smartphone": "",
+        "Offline": "",
+        "segueButtonError": "",
+        "continueButton": "",
+        "segueButton": "",
+        "YesButton": "",
+        "NoButton": "",
+        "LightMethod": ""
+    },
+    "wifi_enter": {
+        "h2": "¿A qué red Wi-Fi quieres conectar tu Kit en internet?",
+        "h4": "Tendrás que escribir manualmente ...",
+        "input1": "Nombre de la red Wi-Fi",
+        "input1_error": "Tienes que escribir el nombre de una red Wi-Fi",
+        "Input2": "Contraseña",
+        "Input2_error": "",
+        "segueButtonError": "comrova los campos",
+        "segueButton": "apunte!",
+        "contextButton": "pruébalo de otra manera ...",
+        "contextButton2": "pide ayuda",
+        "continueButton": "continúa"
+    },
+    "handshake": {
+        "h2": "Ahora haremos un poco de magia.",
+        "h4": "Sostén tu Kit contra la pantalla encima del cuadrado azul que aparece abajo y pulsa conectar. Asegúrate de que el lado azul del Kit mira hacia ti.",
+        "HandshakeLabel": "Coloca tu Kit aquí",
+        "WaitLabel": "YA PUEDES QUITAR EL KIT",
+        "segueButton": "conecta",
+        "continueButton": "continúa"
+    },
+    "wifi_check": {
+        "h2": "Oops, algo ha fallado ...",
+        "h4": "Parece que hay un problema. Fíjate si la luz del Kit sigue roja, por favor vuelve a escribir el nombre y la contraseña de tu Wi-Fi",
+        "input1": "",
+        "input1_error": "",
+        "Input2": "",
+        "Input2_error": "",
+        "segueButtonError": "comprueba los campos",
+        "contextButton": "pruébalo de otra manera",
+        "contextButton2": "pide ayuda",
+        "WaitLabel": "ESPERA",
+        "segueButton": "conecta",
+        "continueButton": "continúa"
+    },
+    "accesspoint_1": {
+        "h2": "Desde tu dispositivo móvil Acedo a la configuración Wi-Fi y conéctate a la red Wi-Fi:",
+        "h3_1": "El",
+        "em_1": "número",
+        "h3_2": "de tu Kit, se encuentra",
+        "em_2": "en la esquina inferior",
+        "h3_3": "de tu kit.",
+        "h4": "Si no encuentras la red, asegúrate que tu Kit está encendido y la LED es rojo.",
+        "promptedText": "SmartCitizen [...]",
+        "segueButton": "conectado"
+    },
+    "accesspoint_2": {
+        "h2": "Deberías ver esta pantalla en tu móvil o tablet",
+        "h3_1": "Si no aparece abre el nagegador de tu móvil y visita",
+        "em_1": "www.mysck.me",
+        "h4": "Si aún no funciona comprueba que estás conectado al Wi-Fi",
+        "promptedText": "mysck.me",
+        "segueButton": "conectado"
+    },
+    "ap_token": {
+        "h2": "Presiona Start y luego escribe la clave del dispositivo",
+        "h4": "Cuando te pida la clave, introduce el código anterior",
+        "promptedText": "TOKEN HERE",
+        "segueButton": "siguiente"
+    },
+    "ap_wifi": {
+        "h2": "Ahora selecciona tu conexión Wi-Fi en la lista e introduce la contraseña.",
+        "h4": "Si el wifi y contraseña enviados son correctos, serás redirigido en breve",
+        "segueButton": "connect!"
+    },
+    "ap_final": {
+        "h1": "Esperando tu kit",
+        "h4": "Si el wifi y contraseña enviados son correctos, el LED del Kit se volverá azul y te redirigirá en breve",
+        "segueButton": "connecting ..."
+    },
+    "ap_issues": {
+        "h1": "Lo sentimos, algo no funciona bien!",
+        "h4": "Asegúrate de que la luz del kit esté rojo antes de conectarte, comprueba que has introducido correctamente la contraseña WiFi y asegúrate de que eres lo suficientemente cerca del router",
+        "segueButton": "Try again"
+    },
+    "kitbuild4": {
+        "h2": "Y finalmente, enciende el Kit",
+        "text": "Presiona el botón del Kit, hasta que el color de la LED sea rojo.",
+        "segueButton": "la luz es roja!"
+    },
+    "offline_1": {
+        "h2": "",
+        "h3_1": "",
+        "em_1": "",
+        "h3_2": "",
+        "em_2": "",
+        "h3_3": "",
+        "h4": "",
+        "promptedText": "",
+        "segueButton": ""
+    },
+    "offline_2": {
+        "h2": "",
+        "h3_1": "",
+        "em_1": "",
+        "h4": "",
+        "promptedText": "",
+        "segueButton": ""
+    },
+    "offline_3": {
+        "h2": "",
+        "h3_1": "",
+        "em_1": "",
+        "h4": "",
+        "promptedText": "",
+        "segueButton": ""
+    },
+    "confirm_handshake": {
+        "h1": "BIEN HECHO!",
+        "h4": "Has conectado tu Kit en Internet!",
+        "segueButton": "continúa"
+    },
+    "sensorName_prep": {
+        "h1": "ES LA HORA DE DARLE UN NOMBRE A TU SENSOR",
+        "h4": "Esto nos ayudará a saber de dónde vienen los datos ...",
+        "segueButtonError": "elige un nombre",
+        "segueButton": "continúa"
+    },
+    "sensorName": {
+        "h2": "¿Qué nombre le quieres dar a tu Kit?",
+        "h4": "Le puedes decir como quieras. Así es como aparecerá en el mapa de Smart Citizen.",
+        "input1": "Escribe el nombre del Kit",
+        "input1_error": "El Kit necesita un nombre",
+        "contextButton": "elige un nombre aleatorio",
+        "segueButtonError": "repasa el nombre",
+        "segueButton": "done"
+    },
+    "location_prep": {
+        "h2": "Donde instalarás el Kit?",
+        "h4": "Presionando 'permite' en la ventana de diálogo podremos determinar la ubicación actual del Kit. Después puedes ajustarla manualmente en cualquier lugar donde quieras situar el Kit.",
+        "segueButton": "hecho",
+        "continueButton": "hecho!",
+        "waitButton": "espera"
+    },
+    "location_map": {
+        "h2": "Si quieres ajustar la ubicación lo puede hacer aquí.",
+        "h4": "Recuerda que tu dispositivo necesita tener acceso Wi-Fi. Si no es así los datos no se guardarán en tiempo real en la plataforma.",
+        "input1": "indique su dirección",
+        "input1_error": "",
+        "segueButton": "hecho",
+        "continueButton": "hecho",
+        "segueButtonError": "Tienes que introducir una dirección o ubicación"
+    },
+    "location_tags": {
+        "h2": "Seleccionar las palabras que mejor describen el lugar donde has instalado el Kit",
+        "h4": "Esto nos ayudará a saber lo que estás midiendo",
+        "segueButton": "todo listo",
+        "continueButton": "todo listo"
+    },
+    "confirm_location": {
+        "h1": "CASI ESTAMOS",
+        "h4": "Finalmente, es hora de guardar todo lo que has configurado",
+        "segueButton": "continúa"
+    },
+    "account1": {
+        "h2": "Podemos guardar el Kit con su dirección de correo electrónico",
+        "h4": "Si ya tienes una cuenta, la añadiremos allí. Si no, lo haremos rápidamente",
+        "segueButton": "continúa",
+        "input1": "Añade tu correo a continuación",
+        "input1_error": "Es necesario que añadas una dirección",
+        "segueButtonError": "comprueba la dirección",
+        "continueButton": "continúa"
+    },
+    "login": {
+        "h2a": "Genial, bien vuelto!",
+        "h2b": "Escribe tu contraseña abajo para terminar!",
+        "h4": "Esto enviará a la plataforma todos los datos que has configurado sobre tu Kit!",
+        "input1": "Contraseña",
+        "input1_error": "",
+        "segueButtonError": "repasa la contraseña",
+        "segueButton": "continúa",
+        "contextButton": "Oblivia contraseña"
+    },
+    "account2": {
+        "h2": "Guay, parece que eres nuevo a Smart Citizen?",
+        "h4": "Agregar un nombre de usuario a tu perfil, de esta manera los otros usuarios sabrán de quién es el Kit.",
+        "input1": "Agregar un nombre de usuario",
+        "input1_error": "El nombre de usuario es obligatorio",
+        "input1_error2": "",
+        "contextButton": "elige un nombre aleatorio",
+        "segueButtonError": "valida el nombre de usuario",
+        "segueButton": "continúa"
+    },
+    "account3": {
+        "h2": "Ahora, añade una contraseña para proteger tu usuario",
+        "h4a": "La contraseña debe tener como mínimo 8 caracteres",
+        "h4b": "Y una vez más para asegurarnos de que no hay errores.",
+        "input1": "Password",
+        "input1_error": "La contraseña debe tener como mínimo 5 caracteres",
+        "input1_error2": "Tienes que introducir una contraseña",
+        "segueButtonError": "las contraseñas no coinciden",
+        "segueButton": "listos!",
+        "continueButton": "listos!"
+    },
+    "final": {
+        "h1": "Es vivo!",
+        "h2": "Has instalado y conectado correctamente el Smart Citizen Kit a Internet y, a continuación, has añadido el kit a la comunidad global de sensores. Ahora puede explorar los datos de su comunidad en el portal BCNNow!",
+        "h4": "Visita también SmartCitizen.me para ver tu kit en acción captando datos.",
+        "h4b": "Explora el panel de tu comunidad!",
+        "segueButton": "Visits smartcitizen.me"
+    },
+    "unavailable": {
+        "h1": ""
+    },
+    "confirm_parts": {
+        "h1": "BIEN HECHO!",
+        "h4": "Ahora vamos a montar todo junto",
+        "segueButton": "continúa"
+    },
+    "decode_app": {
+        "segueButton": "Hecho!",
+        "h1": "Únete a la comunidad de decode!",
+        "h4": "Escanea el código QR con el teléfono o haz clic en el botón de abajo",
+        "h4b": "Registrarse con Decode"
+    }
+}
