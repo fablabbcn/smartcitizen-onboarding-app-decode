@@ -40,7 +40,7 @@
         "stateName": "smart_citizen_brief",
         "url": "smart_citizen_brief",
         "assets": {
-          "image": "assets/images/sck.png"
+          "image": "assets/images/sck_21.png"
         },
         "contentKeys": [
           "h2",
@@ -55,7 +55,7 @@
         "stateName": "smart_citizen_brief2",
         "url": "smart_citizen_brief2",
         "assets": {
-          "image": "assets/images/web.png"
+          "image": "assets/images/sck21_platform.png"
         },
         "contentKeys": [
           "h2",
@@ -87,7 +87,7 @@
         "stateName": "kitbuild1",
         "url": "kit_parts",
         "assets": {
-          "image": "assets/images/atn_parts.jpg"
+          "image": "assets/images/sck_new_parts.jpg"
         },
         "contentKeys": [
           "h2",
@@ -102,7 +102,7 @@
         "stateName": "kitbuild2",
         "url": "power_on",
         "assets": {
-          "image": "assets/images/atn_battery.jpg"
+          "image": "assets/images/sck_new_battery.jpg"
         },
         "contentKeys": [
           "h2",
@@ -117,7 +117,7 @@
         "stateName": "kitbuild3",
         "url": "charge_battery",
         "assets": {
-          "image": "assets/images/atn_usb.jpg"
+          "image": "assets/images/sck_new_usb.jpg"
         },
         "contentKeys": [
           "h2",
@@ -132,7 +132,7 @@
         "stateName": "kitbuild4",
         "url": "button_modes",
         "assets": {
-          "image": "assets/images/atn_button.jpg"
+          "image": "assets/images/sck_new_button.jpg"
         },
         "contentKeys": [
           "h2",
